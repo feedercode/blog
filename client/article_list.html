@@ -1,0 +1,12 @@
+<template name="articlesList">
+<div>
+    {{#each articles}}
+    {{>article}}
+    {{/each}}
+</div>
+</template>
+
+<template name="article">
+    <h1>{{title}}</h1>
+    <p>{{body}}</p>
+</template>
